@@ -30,9 +30,8 @@ alias ltxt="ls *.txt"
 # ~/tmp folder
 if [ ! -f ~/tmp ]; then
   mkdir ~/tmp && echo Folder ~/tmp was created.
-else
-  rm  -rf ~/tmp/*
 fi
+rm  -rf ~/tmp/*
 
 #kill process that bound to port 8080
 PORT=8080
