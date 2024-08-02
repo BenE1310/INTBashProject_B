@@ -4,7 +4,7 @@
 currentUser=$(id -un)
 echo Hello $currentUser && echo ""
 # COURSE_ID equals to DevOpsTheHardWay
-export CUORSE_ID=DevOpsTheHardWay
+export CUORSE_ID=_REPO_NAME_
 
 #.token existing and permission checking
 if [ -f /home/$currentUser/.token ]; then
@@ -35,7 +35,7 @@ else
 fi
 
 #kill process that bound to port 8080
-PORT=3389
+PORT=8080
 PID=$(lsof -t -i:$PORT)
 
 if [ -n "$PID" ]; then
