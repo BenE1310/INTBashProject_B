@@ -15,7 +15,7 @@ if [ -f /home/$currentUser/.token ]; then
 fi
 
 #change default umask
-umask 0060
+umask 006
 
 #Add usercommands folder to Enviroment Variables
 PATH=$PATH:/home/$currentUser/usercommands
