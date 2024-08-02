@@ -4,7 +4,7 @@
 currentUser=$(id -un)
 echo Hello $currentUser && echo ""
 # COURSE_ID equals to DevOpsTheHardWay
-export CUORSE_ID=_REPO_NAME_
+export COURSE_ID="__REPO_NAME__"
 
 #.token existing and permission checking
 if [ -f /home/$currentUser/.token ]; then
