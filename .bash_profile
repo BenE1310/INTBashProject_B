@@ -1,6 +1,5 @@
 # .bash_profile
 
-
 # Print Hello when a user logged in.
 currentUser=$(id -un)
 echo Hello $currentUser && echo ""
